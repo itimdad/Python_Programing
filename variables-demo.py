@@ -34,3 +34,19 @@ print(type(ids))
 skills = {"Java", "SonarQube", "Maven", "Gradle", "Vunerability"}
 print(skills)
 print(type(skills))
+
+#dictionary data type (store value in key value pair)
+student = {
+    "id": 2,
+    "name": "Karan",
+    "add": "GKP"
+}
+print(student)
+print(type(student))
+
+#student Data
+student_id = 102
+student_name = "Vijay"
+course = "Python"
+fee = 25000.00
+imp_concept = ["Basics", "DSA", "AI", "ML"]
