@@ -34,6 +34,9 @@ print(nums[:: -1])  #print in reverse order
 
 ##List functions
 coursess = ["Java", "Python", "PHP", "HTML", "C++", "DSA"]
+#for loop in courses
+for course in coursess:
+    print(course)
 #append => add element at the end
 print(courses)
 
