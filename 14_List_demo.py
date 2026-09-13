@@ -1,4 +1,5 @@
 #List data structure
+from typing import List
 
 courses = ["Java", "Python", "PHP", "HTML", "C++"]
 print(courses[0])
@@ -13,8 +14,8 @@ print(items[1])
 print(items[3])
 
 #Negative index access(start from right to left <-----)
-print(items[-1])
-print(items[-2])
+print("Ulta",items[-1])
+print("Ulta",items[-2])
 
 nums = [10,20,30,40,50,60]
 #List slicing => It is used to get part of the list
@@ -29,3 +30,40 @@ print(nums[2:])   #prints from 2 index to end
 print(nums[::2])  #step by 2 (increased by 2)
 
 print(nums[:: -1])  #print in reverse order
+
+
+##List functions
+coursess = ["Java", "Python", "PHP", "HTML", "C++", "DSA"]
+#append => add element at the end
+print(courses)
+
+#insert => add element in specific position
+coursess.insert(0, "COA")
+print(coursess)
+
+#extends => add two list
+frontend=["HTML", "CSS", "JavaScript"]
+backend=["JAVA", "SPRING", "Spring Boot", "SQL", "Docker", "K8s"]
+frontend.extend(backend)
+print(frontend)
+
+#remove => remove specified value
+coursess.remove("Java")
+print(coursess)
+
+#pop => remove based on index, without index will remove last
+numbers = [10,20,30,40,50,60]
+
+#removes last
+numbers.pop()
+print(numbers)
+
+#removes index wise
+numbers.pop(1)
+print(numbers)
+
+#clear => Removes all elements from the list
+# numbers.clear()
+# print(numbers)
+
+#del => delete an elemnet or entire list
