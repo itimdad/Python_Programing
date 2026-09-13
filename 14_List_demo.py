@@ -66,4 +66,6 @@ print(numbers)
 # numbers.clear()
 # print(numbers)
 
-#del => delete an elemnet or entire list
+#del function => delete an elemnet or entire list
+del numbers[0]
+print(numbers)
