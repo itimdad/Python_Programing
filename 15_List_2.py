@@ -54,3 +54,14 @@ for name in names:
 #names = [name.upper() for name in names]
 print([name.upper() for name in names])
 print(names)
+
+#student grade using comprehension
+marks = [20, 33, 31,55, 20,99,60]
+
+result = ["Passed" if mark >= 33 else "Failed" for mark in marks]
+print(result)
+
+#calculate GST
+prices = [1000, 2000, 3000, 4000]
+prices_with_gst = [price + (price * 18/100) for price in prices]
+print(prices_with_gst)
